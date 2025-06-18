@@ -15,8 +15,6 @@ To get the project up and running, follow these steps:
 
 Clone the repository:
 
-Bash
-
 git clone https://github.com/rinamaz/Home-Assignment-azimut.ai.git
 cd maritime-tracking-dashboard
 Docker Compose: The simplest way to run both the frontend and backend is using Docker Compose.
