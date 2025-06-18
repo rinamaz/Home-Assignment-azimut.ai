@@ -1,0 +1,17 @@
+
+*.log
+
+# התעלם מתיקיית node_modules
+backend/node_modules/
+frontend/node_modules/
+
+# התעלם מקובץ ספציפי
+config.js
+.env
+
+# התעלם מכל קבצי הפלט של מערכת הפעלה
+.DS_Store
+Thumbs.db
+
+# התעלם מכל קבצי הסיומת .tmp בכל מקום בפרויקט
+**/*.tmp
