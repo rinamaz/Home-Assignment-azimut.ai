@@ -6,10 +6,10 @@
   UNKNOWN = 'UNKNOWN', 
 }
 export const ThreatLevelColors: Record<eThreatLevel, string> = {
-  [eThreatLevel.HIGH]: 'red',
-  [eThreatLevel.MEDIUM]: 'orange',
-  [eThreatLevel.LOW]: 'green',
-  [eThreatLevel.UNKNOWN]: 'gray',
+  [eThreatLevel.HIGH]: 'rgb(255, 0, 0)',   
+  [eThreatLevel.MEDIUM]: 'rgb(255, 165, 0)', 
+  [eThreatLevel.LOW]: 'rgb(0, 128, 0)',  
+  [eThreatLevel.UNKNOWN]: 'rgb(128, 128, 128)', 
 };
  export enum eThreatType {
  PERSON= 'PERSON', 
